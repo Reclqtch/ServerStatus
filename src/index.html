@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Server Status Checker</title>
+        <link rel="stylesheet" href="index.css" />
+        <script defer src="index.js"></script>
+    </head>
+    <body>
+        <div class="search-bar">
+            <p class="control">
+                <input id="ip" type="text" placeholder="Enter IP" maxlength="32" size="32" value="mc.hypixel.net" />
+            </p>
+            <p class="control">
+                <button id="check">Check</button>
+            </p>
+        </div>
+        <div class="status">
+            <img id="icon" class="icon" src="unknown_server.png" />
+            <div class="info">
+                <p id="players" style="text-align: right; color: #aaaaaa"><br /></p>
+                <p id="motd" style="white-space: break-spaces"><span style="color: #aa0000">Can't connect to server.</span></p>
+            </div>
+        </div>
+    </body>
+</html>
