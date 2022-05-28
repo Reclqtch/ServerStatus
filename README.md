@@ -1,0 +1,2 @@
+# ServerStatus
+ Checks servers' status
